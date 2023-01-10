@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+}
+html,body{	
+	background:black;
+}
+
+.main-container{
+    /* box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;*/
+    border:2px solid grey;
+    border-radius:5px;
+    width:400px;
+    margin: 80px auto;
+    background: black;
+}
+
+.display-container{
+    height:80px;
+    border-bottom:1px groove grey;
+}
+
+.history-container,.result-container {
+    text-align: right;
+}
+
+p,h4{
+    display:inline-block;
+    margin-right:20px;
+    color:white;    
+    font-weight: normal;
+}
+h4{
+    margin-top:-5px;
+    font-size:2em;
+}
+
+.keypad{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.keypad > button{
+    background:transparent;
+    border-radius: 50%;
+    height:80px;
+    width:80px;
+    margin:5px;
+    outline:none;
+    border:none;
+    color:white;
+    font-size:1.4em;
+}
+
+.keypad > button:hover{
+    cursor: pointer;
+}
+
+.keypad .clear-all, .keypad .clear-last-input{
+    color:green;
+}
+
+.keypad #color{
+    color:orange;
+}
+
+*/
+.keypad #color:hover{
+    background:orange;
+    color:black;
+}
+/*
+
+.disable-select{
+    user-select: none;
+}
+
+
